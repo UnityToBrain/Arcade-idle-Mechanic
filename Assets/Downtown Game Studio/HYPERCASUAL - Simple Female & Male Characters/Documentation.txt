@@ -1,0 +1,15 @@
+HYPERCASUAL - Simple Female & Male Characters
+
+The package contains 2 3D models.
+
+Models are rigged and compatible with Mixamo animations. 
+
+Technical details:
+
+Number of textures: 2
+Texture dimensions: 1024x1024
+Number of meshes/prefabs: 2
+Rigging: Yes
+UV mapping: Yes
+
+Demo scene included.
