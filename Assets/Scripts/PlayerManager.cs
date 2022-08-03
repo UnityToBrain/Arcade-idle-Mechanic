@@ -16,13 +16,16 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private List<Transform> papers = new List<Transform>();
     [SerializeField] private Transform paperPlace;
     private float YAxis, delay;
-    [SerializeField] private TextMeshProUGUI MoneyCounter;
+    public TextMeshProUGUI MoneyCounter;
+    public static PlayerManager PlayerManagerInstance;
     void Start()
     {
         Cam = Camera.main;
         PlrAnim = GetComponent<Animator>();
         
         papers.Add(paperPlace);
+
+        PlayerManagerInstance = this;
     }
 
     // Update is called once per frame
@@ -162,7 +165,7 @@ public class PlayerManager : MonoBehaviour
             
             PlayerPrefs.SetInt("dollar",PlayerPrefs.GetInt("dollar") + 5);
 
-            MoneyCounter.text = "$" + PlayerPrefs.GetInt("dollar");
+            MoneyCounter.text = PlayerPrefs.GetInt("dollar").ToString("C0");
         }
     }
 

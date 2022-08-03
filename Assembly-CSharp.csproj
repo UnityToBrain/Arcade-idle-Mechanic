@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1b37c0cb-6799-681a-1696-97d7f4bc056f}</ProjectGuid>
+    <ProjectGuid>{11e0dc03-43b4-5d01-9adf-4cf6ccca0c3a}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,7 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\UJoystick\Content\Script\Core\bl_Joystick.cs" />
      <Compile Include="Assets\Gui_textures\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\Gui_textures\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
@@ -60,9 +60,10 @@
      <Compile Include="Assets\UJoystick\Example\Scrips\bl_ControllerExample.cs" />
      <Compile Include="Assets\Gui_textures\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\Gui_textures\Joystick Pack\Scripts\Base\Joystick.cs" />
-     <Compile Include="Assets\workDesk.cs" />
+     <Compile Include="Assets\Scripts\workDesk.cs" />
      <Compile Include="Assets\Gui_textures\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-     <Compile Include="Assets\Printer.cs" />
+     <Compile Include="Assets\Scripts\Printer.cs" />
+     <Compile Include="Assets\UnlockDesk.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -301,10 +302,10 @@
  <HintPath>D:/ProgramFiles/Unity 2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/ProgramFiles/Unity 2021.3.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -652,109 +653,109 @@
  <HintPath>D:/ProgramFiles/Unity 2021.3.21f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Recorder.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Recorder.Base">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Searcher.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Recorder">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{96a30fc4-c859-dc0a-849c-f0e2e49cf4d5}</Project>
+      <Project>{b0d4c174-c1cd-bb61-a12c-94fcabaa1a88}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsExamples.csproj">
-      <Project>{ac36234a-c0f5-af78-2890-ef5dc6cbcab4}</Project>
+      <Project>{e4ea9314-884c-71af-fc49-26caa9e52ad9}</Project>
       <Name>NavMeshComponentsExamples</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{cc11b0f9-f56e-f749-1958-1c7565112de9}</Project>
+      <Project>{1337c225-e70c-12c9-1481-844b408d551b}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponentsExamplesEditor.csproj">
-      <Project>{c8ae2de4-5cd0-f755-7f9d-bf287f5e190f}</Project>
+      <Project>{19e746de-54de-9eff-4f8d-0c776d225d24}</Project>
       <Name>NavMeshComponentsExamplesEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{1146f584-446c-4529-0cda-86fec094d9ec}</Project>
+      <Project>{841c0e02-f0e3-e1f3-3094-20bbcf588766}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{cc11b0f9-f56e-f749-1958-1c7565112de9}</ProjectGuid>
+    <ProjectGuid>{1337c225-e70c-12c9-1481-844b408d551b}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -291,31 +291,31 @@
  <HintPath>D:/ProgramFiles/Unity 2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.NRefactory">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.render-pipelines.core@10.6.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.render-pipelines.core@10.6.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/ProgramFiles/Unity 2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -666,21 +666,21 @@
  <HintPath>D:/ProgramFiles/Unity 2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>F:/YouTube_UnityToBrain/Office Fever/GitHubProject/Arcade-idle/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{1146f584-446c-4529-0cda-86fec094d9ec}</Project>
+      <Project>{841c0e02-f0e3-e1f3-3094-20bbcf588766}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
